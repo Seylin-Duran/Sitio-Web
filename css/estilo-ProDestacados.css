@@ -1,0 +1,148 @@
+header{
+  background:#545e75;
+  color:#f5f3f5;
+  padding:20px;
+  text-align: center;
+
+}
+
+nav ul{
+  background-color:#549f93;
+  list-style - type: none;
+  width: 95s;
+  text-align: center;
+}
+
+nav li{
+  display:inline-flex ;
+}
+
+nav a{
+  font-family: fantasy;
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  width: 200px;
+}
+
+nav a:hover{
+  color: #d4b942  
+}
+
+header h1{
+  font-family:"Caveat", cursive ;
+}
+
+header nav{
+  font-family: "Pacifico", cursive;
+  font-weight: 400 ;   
+  font-style: normal;
+}
+
+main{
+  font-family:"shadows Into light",cursive;
+  max-width: 1000px ;
+  margin: 20px auto;
+  padding: 0 20px ;
+}
+.lista-productos{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+}
+.productos{
+  width: 30%;
+  background-color: #fff;
+  padding: 20px 5px 20px 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.8s ease-in-aut; 
+}
+.productos:hover{
+  box-shadow:  0 0 30px rgba(255, 0, 0, 0.8);
+}
+
+.productos img{
+  width: 220px ;
+  height: 220px ;
+  display: black;
+  transition:  transform 0.3s ease-in-aut;
+  margin: 0 auto 10px;
+}
+.productos:hover{
+  transform: scale(1.1);
+}
+.productos button{
+  display: black;
+  margin: 0 auto;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-aut;
+
+}
+.productos button:hover{
+  background-color: blueviolet;
+}
+footer{
+  background-color: #549f93;
+  color: #f5f3f5;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex- wrap:wrap;
+  font-family: "Caveat" cursive;
+  font-size: 24px ;
+}
+.links-informaticos{
+  width: 400px;
+
+}
+.links-informaticos ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.links-informaticos li a{
+  text-decoration: none;
+  color: #f5f3f5;
+
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.redes-sociales{
+  width: 300px;
+}
+.redes-sociales img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.redes-sociales li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.redes-sociales img:hover{
+  transform: scale(1.1);
+}
+
+.info-contacto{
+  width: 200px;
+  text-align: right;
+  font-size: 14px ;
+}
+
+#Productos_Destacados{
+  color: #545e75;
+}
+#Productos_Destacados:hover{
+  color:#d4b942;
+
+}
